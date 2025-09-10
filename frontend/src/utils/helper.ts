@@ -1,7 +1,7 @@
 import { parse } from 'yaml'
 
 import { deleteConnection, getConnections, useProxy } from '@/api/kernel'
-import { AbsolutePath, Exec, ExitApp, ReadFile, WriteFile, RemoveFile } from '@/bridge'
+import { AbsolutePath, Exec, ExitApp, ReadFile, WriteFile, RemoveFile, Download } from '@/bridge'
 import { CoreWorkingDirectory } from '@/constant'
 import { ProxyGroupType } from '@/enums/kernel'
 import i18n from '@/lang'
