@@ -40,6 +40,7 @@ func main() {
 		StartHidden:      bridge.Config.StartHidden,
 		WindowStartState: options.WindowStartState(bridge.Config.WindowStartState),
 		BackgroundColour: &options.RGBA{R: 255, G: 255, B: 255, A: 1},
+		EnableDefaultContextMenu: true,
 		Windows: &windows.Options{
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
